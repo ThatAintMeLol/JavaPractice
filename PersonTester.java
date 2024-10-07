@@ -24,16 +24,16 @@ class Person {
     }
 
     public void changeName(String newname) {
-        this.name = newname; // Completes the changeName method
+        this.name = newname;
     }
 }
 
 class PersonTester {
     public static void main(String args[]) {
-        Person matt = new Person(17, "Mathew Gross");
-        System.out.println("Age before: " + matt.getAge());
-        System.out.println(matt.getName());
-        matt.celebrateBirthday();
-        System.out.println("Age after: " + matt.getAge()); // Use getAge() to access age
+        Person prsn = new Person(9999, "Person");
+        System.out.println("Age before: " + prsn.getAge());
+        System.out.println(prsn.getName());
+        prsn.celebrateBirthday();
+        System.out.println("Age after: " + prsn.getAge());
     }
 }
